@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Verteilte Buttons</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Einbindung der CSS-Datei -->
+    <script src="script.js"></script> <!-- Einbindung der JavaScript-Datei -->
+</head>
+<body>
+
+<div class="button-container"> <!-- Oberer Bereich für die Buttons -->
+    <div>
+        <button onclick="showImage(1)">Bild 1 anzeigen</button> <!-- Button im ersten Drittel -->
+    </div>
+    <div>
+        <button onclick="showImage(2)">Bild 2 anzeigen</button> <!-- Button im zweiten Drittel -->
+    </div>
+    <div>
+        <button onclick="showImage(3)">Bild 3 anzeigen</button> <!-- Button im dritten Drittel -->
+    </div>
+</div>
+
+<div class="image-container"> <!-- Unterer Bereich für die Bilder -->
+    <div id="image1"></div> <!-- Bereich für Bild im ersten Drittel -->
+    <div id="image2"></div> <!-- Bereich für Bild im zweiten Drittel -->
+    <div id="image3"></div> <!-- Bereich für Bild im dritten Drittel -->
+</div>
+
+</body>
+</html>
